@@ -1,0 +1,31 @@
+#myList {
+    list-style-type: none;
+    padding: 0;
+}
+#myList li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+#myList li:hover {
+    background-color: #e0e0e0;
+}
+body {
+    background-color: #f0f5fa; 
+    padding: 20px;
+}
+
+.section-class {
+    padding: 20px;
+    border: 2px solid white;
+    background-color: rgb(111, 171, 239); /* لون فاتح للـ section */
+}
+
+.button-class {
+    padding: 10px;
+    background-color: #33ec22; /* لون فاتح للـ button */
+    border: none;
+    cursor: pointer;
+}
